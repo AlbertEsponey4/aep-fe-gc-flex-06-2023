@@ -97,6 +97,9 @@ body{
 .container-main-content-browser-search-button{
     margin: 2px;
     font-size: 10px;
+}
+
+.container-main-content-browser-search-button span{
     color:  rgb(121, 120, 120);
 }
 
@@ -113,6 +116,9 @@ input:focus{
 .container-main-content-browser-mic-button{
     margin: 2px;
     font-size: 10px;
+}
+
+.container-main-content-browser-mic-button span{
     color: rgb(121, 120, 120);
 }
 
