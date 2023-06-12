@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+
+/* Lo uso para quitar los estilos a todos los enlaces */
+
+.no-decoration-link{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: felx;
+    flex-direction: column;
+    width: 100vw;
+}
+
+/* Navigation bar */
+.container-nav{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-nav-left{
+    display: flex;
+    margin-left: 2vw;
+    align-items: center;
+}
+
+.container-nav-left-link{
+    margin-right: 1vw;
+    font-size: 12px;
+}
+
+.container-nav-right{
+    display: flex;
+    margin-right: 2vw;
+    align-items: center;
+}
+
+.container-nav-right-link{
+    margin-right: 1vw;
+    font-size: 10px;
+}
+
+.container-nav-right-link span{
+    color: rgb(121, 120, 120);
+}
+
+#login-button{
+    background-color: rgb(80, 80, 250);
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* Tengo que poner el color específicamente en el a porque arribo lo he puesto negro. */
+#login-button a{
+    color: white;
+}
+
+/* Main content */
+
+.container-main{
+    display: flex;
+    height: 77vh;
+    justify-content: center;
+    
+}
+
+.container-main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    height: 100%;
+}
+
+.container-main-content-img{
+    margin-top: 10vh;
+    height: 15vh;
+}
+
+.container-main-content-browser{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 20px;
+    padding: 4px 0;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.container-main-content-browser-search-button{
+    margin: 2px;
+    font-size: 10px;
+    color:  rgb(121, 120, 120);
+}
+
+input{
+    width: 90vh;
+    border: none;
+    background: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.container-main-content-browser-mic-button{
+    margin: 2px;
+    font-size: 10px;
+    color: rgb(121, 120, 120);
+}
+
+.container-main-content-links{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.container-main-content-links-link{
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: rgb(247, 247, 247);
+}
+
+.container-main-content-languages{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.container-main-content-languages a{
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+.container-footer{
+    height: 13vh;
+    background-color: rgb(247, 247, 247);
+    color: rgb(121, 120, 120);
+}
+
+.container-footer a{
+    color: rgb(121, 120, 120);
+}
+
+.container-footer-top{
+    font-size: 12px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.container-footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.container-footer-bottom-right{
+    display: flex;
+}
+
+.container-footer-bottom-right-link{
+    margin: 0px 10px;
+}
+
+.container-footer-bottom-middle{
+    display: flex;
+}
+
+.container-footer-bottom-middle img{
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+}
+
+.container-footer-bottom-left-link{
+    margin: 0px 10px;
+}
+.container-footer-bottom-left{
+    display: flex;
+}
+
