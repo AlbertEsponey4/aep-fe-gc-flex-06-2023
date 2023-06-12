@@ -32,7 +32,7 @@ body{
 
 .container-nav-left-link{
     margin-right: 1vw;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .container-nav-right{
@@ -43,7 +43,7 @@ body{
 
 .container-nav-right-link{
     margin-right: 1vw;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .container-nav-right-link span{
@@ -54,7 +54,7 @@ body{
     background-color: rgb(80, 80, 250);
     padding: 8px 15px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* Tengo que poner el color específicamente en el a porque arribo lo he puesto negro. */
@@ -96,7 +96,7 @@ body{
 
 .container-main-content-browser-search-button{
     margin: 2px;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .container-main-content-browser-search-button span{
@@ -115,7 +115,7 @@ input:focus{
 
 .container-main-content-browser-mic-button{
     margin: 2px;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .container-main-content-browser-mic-button span{
@@ -137,7 +137,7 @@ input:focus{
 }
 
 .container-main-content-languages{
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 20px;
 }
 
@@ -159,7 +159,7 @@ input:focus{
 }
 
 .container-footer-top{
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px;
     border-bottom: 1px solid rgb(168, 168, 168);
 }
@@ -167,7 +167,7 @@ input:focus{
 .container-footer-bottom{
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px 0;
 }
 
